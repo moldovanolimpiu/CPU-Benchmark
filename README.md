@@ -4,3 +4,9 @@ This is a program that benchmarks the performance of a computer's CPU. Various c
 
 ### Two versions
   I've made this project with QT creator, which has the ability to deploy projects in such a way that no other dependencies are needed to run the project. As such, i've uploaded both the source code and the deployed version for easy use
+
+### Baseline results
+  The final grade from the Grader has been calculated using a weighted geometric mean, with respect to a baseline result, which I obtained from running the tests on a laptop with the following (relevant) specifications:  
+  -AMD Ryzen 5 7535HS with Radeon Graphics (3.3 GHz)
+  -16 GB of DDR5 RAM at 4800MHz
+  
