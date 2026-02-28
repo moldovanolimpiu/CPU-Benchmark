@@ -9,4 +9,10 @@ This is a program that benchmarks the performance of a computer's CPU. Various c
   The final grade from the Grader has been calculated using a weighted geometric mean, with respect to a baseline result, which I obtained from running the tests on a laptop with the following (relevant) specifications:  
   -AMD Ryzen 5 7535HS with Radeon Graphics (3.3 GHz)  
   -16 GB of DDR5 RAM at 4800MHz  
+
+# Details & User guide
+
+### Running the program
+
+
   
