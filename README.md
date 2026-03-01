@@ -21,7 +21,19 @@ In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed), run the CPUBenc
 This opens a window which displays relevant information about the CPU of the computer on which the program is ran on. Both ```CPUID``` and ```SYSTEM_INFO``` instructions have been used to retrieve the data. 
 Displayed info:  
   - Vendor (Intel or AMD)
-  - Brand String 
+  - Brand String (AMD Ryzen 5 7535HS with Radeon Graphics for example)
+  - Architecture
+  - Stepping
+  - Type
+  - Family & extended family
+  - Model & extended model
+  - Architecture
+  - Page Size
+  - Cores & Threads
+  - Cache Memory info (for each level, size and associative ways)
+  - Base, Max and Bus frequency (only available on Intel CPUs)
+
+###
 
 
 
