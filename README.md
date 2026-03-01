@@ -35,9 +35,15 @@ Displayed info:
 
 ### Memory Transfer Tests
 
-Opening this, a window with the test parameters is displayed. This test consists of transfering a block of memory from an address to another using ```memcpy```. The size of the memory is iterated from a minimum size, to a maximum size, and the same size is copied for a specific number of times (runs) to obtain an average. As such, the user can customize the lower index, the upper index, the step, and the number of runs per size.  
+Opening this, a window with the test parameters is displayed. This test consists of transfering a block of memory from an address to another using ```memcpy```. The size of the memory is iterated from a minimum size, to a maximum size, and the same size is copied for a specific number of times (runs) to obtain an average. As such, the user can customize the lower index, the upper index, the step, and the number of runs per size. The autofill button will input a dataset, skipping this step altogether. Once the parameters are in, ```Start Test``` can be pressed to begin the test (It might take a while, depending on the computer and the parameters). The results show graphs for the average execution time, and transfer rate, for each memory size, as well as the individual result of the most demanding test, separate from the graphs.
 
-## Memory Access Tests
+### Memory Access Tests
+
+This test evaluates the number of memory accesses per second, using a matrix. The matrix is traversed twice, once in a row-by-row mode (best case scenario) and once in a column-by-column mode (worst case scenario, to go against cache predictions). The evaluation works the same way, from a lower index, to a higher index. For this test, the index is represented by the matrix size. The user can choose the lower and upper size, as well as the chart type: linear (step can be customized) or logarithmic (base 2, cannot be changed). The end results are the execution time and accesses per second for both the best case and worst case scenario. They are displayed in the same way (graphs and most demanding result).
+
+### Integer Operations Tests
+
+
 
 
 
