@@ -14,7 +14,11 @@ This is a program that benchmarks the performance of a computer's CPU. Various c
 
 ### Running the program
 
-In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed/CPUBenchmarkQT.exe), run the CPUBenchmarkQT.exe executable. And done, it's ready to run.
+In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed), run the CPUBenchmarkQT.exe executable. And done, it's open and ready to run. The interface should show six buttons: _CPU Identification_, _Memory Transfer Tests_, _Memory Access Tests_, _Integer Operations Tests_, _Floating Point Operations Tests_ and _Grade PC_.
+
+### CPU Identification
+
+
 
 
   
