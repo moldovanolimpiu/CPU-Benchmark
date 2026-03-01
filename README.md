@@ -33,7 +33,13 @@ Displayed info:
   - Cache Memory info (for each level, size and associative ways)
   - Base, Max and Bus frequency (only available on Intel CPUs)
 
-###
+### Memory Transfer Tests
+
+Opening this, a window with the test parameters is displayed. This test consists of transfering a block of memory from an address to another using ```memcpy```. The size of the memory is iterated from a minimum size, to a maximum size, and the same size is copied for a specific number of times (runs) to obtain an average. As such, the user can customize the lower index, the upper index, the step, and the number of runs per size.  
+
+## Memory Access Tests
+
+
 
 
 
