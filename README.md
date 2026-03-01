@@ -14,7 +14,7 @@ This is a program that benchmarks the performance of a computer's CPU. Various c
 
 ### Running the program
 
-In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed), run the CPUBenchmarkQT.exe executable. And done, it's ready to run.
+In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed/CPUBenchmarkQT.exe), run the CPUBenchmarkQT.exe executable. And done, it's ready to run.
 
 
   
