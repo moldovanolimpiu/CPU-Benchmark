@@ -18,6 +18,8 @@ In the [CPUBenchmark_deployed directory](CPUBenchmark_deployed), run the CPUBenc
 
 ### CPU Identification
 
+This opens a window which displays relevant information about the CPU of the computer on which the program is ran on. Both ```CPUID``` and ```SYSTEM_INFO``` instructions have been used. 
+
 
 
 
